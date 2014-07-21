@@ -1,0 +1,12 @@
+Source: ros-indigo-sr-config
+Section: misc
+Priority: extra
+Maintainer: Shadow Robot's software team <software@shadowrobot.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/sr_config
+Standards-Version: 3.9.2
+
+Package: ros-indigo-sr-config
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-sr-cyberglove-config, ros-indigo-sr-ethercat-hand-config
+Description: sr_config
