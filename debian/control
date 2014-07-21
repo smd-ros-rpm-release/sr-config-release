@@ -1,0 +1,12 @@
+Source: ros-indigo-sr-ethercat-hand-config
+Section: misc
+Priority: extra
+Maintainer: Shadow Robot's software team <software@shadowrobot.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/sr_ethercat_hand_config
+Standards-Version: 3.9.2
+
+Package: ros-indigo-sr-ethercat-hand-config
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: sr_ethercat_hand_config contains the different yaml files storing the parameters used on the etherCAT hand.
